@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "271008181826",
+    "project_id": "ecommerce-eb944",
+    "storage_bucket": "ecommerce-eb944.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271008181826:android:15880967db75ed9d62c7db",
+        "android_client_info": {
+          "package_name": "com.rajan.ecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJyJPk4Smt6tFgsOUOGon4MHbrctRCTK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
