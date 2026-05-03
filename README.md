@@ -5,6 +5,27 @@ A professional, high-performance e-commerce application built with **Kotlin** an
 ## 🚀 Overview
 **R Shop** provides a seamless shopping experience with advanced features like product discovery via Barcode/QR scanning, integrated Razorpay payments, and precise location-based services.
 
+## 📸 App Walkthrough
+
+### 🏠 Core Screens
+| Home Screen | My Cart | Wishlist | User Profile |
+|:---:|:---:|:---:|:---:|
+| ![Home](screenshots/home.png) | ![Cart](screenshots/cart.png) | ![Wishlist](screenshots/wishlist.png) | ![Profile](screenshots/profile.png) |
+
+### 🔍 Discovery & Search
+| Barcode Scanner | Search Suggestions | Search Results (PLP) | Product Details (PDP) |
+|:---:|:---:|:---:|:---:|
+| ![Scanner](screenshots/scanner.png) | ![Suggestions](screenshots/search_suggestions.png) | ![PLP](screenshots/plp.png) | ![PDP](screenshots/pdp.png) |
+
+### 💳 Checkout Flow
+| Step 1: Review Cart | Step 2: Location Picker | Step 3: Add Address |           Step 4: Payment Options           |
+|:---:|:---:|:---:|:-------------------------------------------:|
+| ![Checkout Cart](screenshots/cart.png) | ![Map](screenshots/map.png) | ![Address](screenshots/address.png) | ![Payment Methods](screenshots/payment.png) |
+
+| Step 5: Card Entry | Step 6: Process / OTP | Step 7: Success |
+|:---:|:---:|:---:|
+| ![Card Details](screenshots/payment_card.png) | ![OTP Process](screenshots/payment_otp.png) | ![Success](screenshots/payment_success.png) |
+
 ## 🏗️ Architecture
 The project is built using **Clean Architecture** to ensure separation of concerns and ease of testing.
 
@@ -51,11 +72,12 @@ com.rajan.ecommerce
 
 ## ⚙️ Setup
 1. Clone the repository.
-2. Add your `google-services.json` to the `app/` folder.
-3. Configure your API keys in `local.properties`:
+2. Ensure you have the `screenshots` folder with appropriately named images.
+3. Add your `google-services.json` to the `app/` folder.
+4. Configure your API keys in `local.properties`:
    - `GOOGLE_MAPS_KEY=your_key_here`
    - `RAZORPAY_KEY=your_key_here`
-4. Sync Gradle and build the project.
+5. Sync Gradle and build the project.
 
 ---
 Developed by **Rajan Kumar**
