@@ -8,9 +8,9 @@ A professional, high-performance e-commerce application built with **Kotlin** an
 ## 📸 App Walkthrough
 
 ### 🏠 Core Screens
-| Home Screen | My Cart | Wishlist | User Profile |
-|:---:|:---:|:---:|:---:|
-| ![Home](screenshots/home.png) | ![Cart](screenshots/cart.png) | ![Wishlist](screenshots/wishlist.png) | ![Profile](screenshots/profile.png) |
+|             Home Screen              | My Cart | Wishlist | User Profile |
+|:------------------------------------:|:---:|:---:|:---:|
+| ![Home](screenshots/home_screen.png) | ![Cart](screenshots/cart.png) | ![Wishlist](screenshots/wishlist.png) | ![Profile](screenshots/profile.png) |
 
 ### 🔍 Discovery & Search
 | Barcode Scanner | Search Suggestions | Search Results (PLP) | Product Details (PDP) |
@@ -18,9 +18,9 @@ A professional, high-performance e-commerce application built with **Kotlin** an
 | ![Scanner](screenshots/scanner.png) | ![Suggestions](screenshots/search_suggestions.png) | ![PLP](screenshots/plp.png) | ![PDP](screenshots/pdp.png) |
 
 ### 💳 Checkout Flow
-| Step 1: Review Cart | Step 2: Location Picker | Step 3: Add Address |           Step 4: Payment Options           |
-|:---:|:---:|:---:|:-------------------------------------------:|
-| ![Checkout Cart](screenshots/cart.png) | ![Map](screenshots/map.png) | ![Address](screenshots/address.png) | ![Payment Methods](screenshots/payment.png) |
+| Step 1: Review Cart |   Step 2: Location Picker    | Step 3: Add Address |           Step 4: Payment Options           |
+|:---:|:----------------------------:|:---:|:-------------------------------------------:|
+| ![Checkout Cart](screenshots/cart.png) | ![Map](screenshots/maps.png) | ![Address](screenshots/address.png) | ![Payment Methods](screenshots/payment.png) |
 
 | Step 5: Card Entry | Step 6: Process / OTP | Step 7: Success |
 |:---:|:---:|:---:|
