@@ -7,15 +7,16 @@ A professional, high-performance e-commerce application built with **Kotlin** an
 
 ## 📸 App Walkthrough
 
-### 🏠 Core Screens
-|             Home Screen              | My Cart | Wishlist | User Profile |
-|:------------------------------------:|:---:|:---:|:---:|
-| ![Home](screenshots/home_screen.png) | ![Cart](screenshots/cart.png) | ![Wishlist](screenshots/wishlist.png) | ![Profile](screenshots/profile.png) |
-
 ### 📽️ App Flow (Light & Dark Theme)
 | Light Mode Flow | Dark Mode Flow |
 |:---:|:---:|
 | ![Light Mode](screenshots/light_theme.gif) | ![Dark Mode](screenshots/dark_theme.gif) |
+
+
+### 🏠 Core Screens
+|             Home Screen              | My Cart | Wishlist | User Profile |
+|:------------------------------------:|:---:|:---:|:---:|
+| ![Home](screenshots/home_screen.png) | ![Cart](screenshots/cart.png) | ![Wishlist](screenshots/wishlist.png) | ![Profile](screenshots/profile.png) |
 
 ### 🔍 Discovery & Search
 | Barcode Scanner | Search Suggestions | Search Results (PLP) | Product Details (PDP) |
