@@ -43,7 +43,7 @@ fun PaymentConfirmation(
         modifier = Modifier
             .fillMaxWidth()
             .background(
-                Color.White,
+                MaterialTheme.colorScheme.surface,
                 shape = RoundedCornerShape(topStart = 32.dp, topEnd = 32.dp)
             )
             .padding(24.dp),

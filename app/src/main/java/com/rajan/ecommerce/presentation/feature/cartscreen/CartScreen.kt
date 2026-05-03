@@ -35,6 +35,7 @@ import androidx.navigation.NavController
 import com.rajan.ecommerce.presentation.ui_components.BarCodeScannerView
 import com.rajan.ecommerce.presentation.ui_components.CartItem
 import com.rajan.ecommerce.presentation.ui_components.DashedDivider
+import com.rajan.ecommerce.presentation.ui_components.MyCartBottomCart
 import kotlinx.coroutines.launch
 
 @androidx.annotation.OptIn(ExperimentalGetImage::class)
@@ -81,7 +82,7 @@ fun CartScreen(navController: NavController, cartViewModel: CartViewModel, isSca
 
                 is CartEffect.ShowMessage ->
                     scope.launch {
-                        snackBarHostState.showSnackbar(effect.message)
+                        snackBarHostState.showSnackbar(message = effect.message, duration = SnackbarDuration.Short)
                     }
             }
         }
@@ -223,7 +224,9 @@ fun CartScreen(navController: NavController, cartViewModel: CartViewModel, isSca
                         }
                     }
                     // Product section
-
+                    if (cartItems.isNotEmpty()) {
+                        MyCartBottomCart(totalItems = totalItems, navController = navController)
+                    }
 
                 }
             }
@@ -251,7 +254,8 @@ fun CartScreen(navController: NavController, cartViewModel: CartViewModel, isSca
             hostState = snackBarHostState,
             modifier = Modifier
                 .align(Alignment.BottomCenter)
-                .padding(bottom = 196.dp)
+                .padding(bottom = 48.dp)
+            ,
         )
 
         // Show Loading Indicator during API call

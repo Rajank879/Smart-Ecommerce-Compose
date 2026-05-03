@@ -32,6 +32,7 @@ import androidx.navigation.NavController
 import com.rajan.ecommerce.presentation.navigation.Routes
 import com.rajan.ecommerce.presentation.ui_components.CartItem
 import com.rajan.ecommerce.presentation.ui_components.DashedDivider
+import com.rajan.ecommerce.presentation.ui_components.MyCartBottomCart
 import com.rajan.ecommerce.presentation.ui_components.MyTopAppBar
 
 @Composable
@@ -70,7 +71,7 @@ fun MyCart(navController: NavController, cartViewModel: CartViewModel) {
         },
 
         bottomBar = {
-            MyCartBottomBar(totalItems, navController)
+            MyCartBottomCart(totalItems, navController)
         }
     ) {
         LazyColumn(
@@ -111,58 +112,6 @@ fun MyCart(navController: NavController, cartViewModel: CartViewModel) {
                 }
             }
 
-        }
-    }
-}
-
-@Composable
-fun MyCartBottomBar(totalItems: Int, navController: NavController) {
-    Surface(
-        modifier = Modifier
-            .fillMaxWidth()
-            .navigationBarsPadding(),
-        shadowElevation = 8.dp,
-    ) {
-
-        Column(
-            modifier = Modifier
-                .fillMaxWidth(),
-        ) {
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .background(color = MaterialTheme.colorScheme.primary.copy(alpha = 0.2f))
-                    .padding(5.dp)
-            ) {
-                Text(
-                    modifier = Modifier
-                        .fillMaxWidth(),
-                    text = "$totalItems items added in cart",
-                    textAlign = TextAlign.Center,
-                    style = MaterialTheme.typography.bodyMedium,
-                    fontWeight = FontWeight.Bold,
-                )
-            }
-
-            Box(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(bottom = 24.dp, top = 16.dp, start = 16.dp, end = 16.dp)
-            ) {
-                Button(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(48.dp),
-                    shape = RoundedCornerShape(8.dp),
-                    onClick = {
-                        navController.navigate(Routes.MapAddress)
-                    }
-                ) {
-                    Text(
-                        text = "Proceed to Checkout",
-                    )
-                }
-            }
         }
     }
 }

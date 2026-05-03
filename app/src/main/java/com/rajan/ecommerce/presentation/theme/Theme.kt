@@ -37,6 +37,7 @@ private val DarkColorScheme = darkColorScheme(
     surface = Color(0xFF1E1E1E),
     onBackground = Color.White,
     onSurface = Color.White,
+    tertiary = Color(0xFF81C784),
     onSurfaceVariant = Color(0xFFBDBDBD),
     primaryFixed = Color(0xFF90CAF9)
 )

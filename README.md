@@ -12,10 +12,15 @@ A professional, high-performance e-commerce application built with **Kotlin** an
 |:------------------------------------:|:---:|:---:|:---:|
 | ![Home](screenshots/home_screen.png) | ![Cart](screenshots/cart.png) | ![Wishlist](screenshots/wishlist.png) | ![Profile](screenshots/profile.png) |
 
+### 📽️ App Flow (Light & Dark Theme)
+| Light Mode Flow | Dark Mode Flow |
+|:---:|:---:|
+| ![Light Mode](screenshots/light_theme.gif) | ![Dark Mode](screenshots/dark_theme.gif) |
+
 ### 🔍 Discovery & Search
 | Barcode Scanner | Search Suggestions | Search Results (PLP) | Product Details (PDP) |
 |:---:|:---:|:---:|:---:|
-| ![Scanner](screenshots/scanner.png) | ![Suggestions](screenshots/search_suggestions.png) | ![PLP](screenshots/plp.png) | ![PDP](screenshots/pdp.png) |
+| ![Scanner](screenshots/barcode_scanner.png) | ![Suggestions](screenshots/search_suggestions.png) | ![PLP](screenshots/plp.png) | ![PDP](screenshots/pdp.png) |
 
 ### 💳 Checkout Flow
 | Step 1: Review Cart |   Step 2: Location Picker    | Step 3: Add Address |           Step 4: Payment Options           |
